@@ -1,0 +1,108 @@
+lipid	status	fraction_missing	qc_rsd_percent	sample_to_blank_ratio
+FA 17:1 (n-7)	kept	0.0		
+FA 19:1 (n-9)	kept	0.0		
+FA 18:2;O (HODE)	kept	0.0		
+FA 17:0 (branched)	kept	0.0035714		
+FA 16:0;O (16-hydroxy)	kept	0.035714		
+LPC 20:4/0:0	kept	0.0035714		
+LPE 20:4/0:0	kept	0.0		
+LPI 20:4/0:0	kept	0.0		
+MG 20:4/0:0/0:0	missing too often	0.73214		
+LPC 22:6/0:0	kept	0.31071		
+LPC 17:0/0:0	kept	0.2		
+LPE 17:0/0:0	kept	0.31429		
+MG 18:2/0:0/0:0	kept	0.10714		
+LPC 18:2/0:0	kept	0.0		
+LPE 18:2/0:0	kept	0.0		
+LPC 14:0/0:0	kept	0.11429		
+LPE 14:0/0:0	kept	0.67143		
+MG 18:1/0:0/0:0	kept	0.017857		
+LPC 18:1/0:0	kept	0.0		
+LPE 18:1/0:0	kept	0.0		
+LPI 18:1/0:0	kept	0.028571		
+LPS 18:1/0:0	kept	0.0035714		
+LPC 16:1/0:0	kept	0.035714		
+LPE 16:1/0:0	kept	0.58214		
+MG 16:0/0:0/0:0	kept	0.0035714		
+LPC 16:0/0:0	kept	0.0		
+LPE 16:0/0:0	kept	0.0		
+LPI 16:0/0:0	kept	0.017857		
+LPE P-16:0	kept	0.0		
+LPC 15:0/0:0	kept	0.3		
+MG 18:0/0:0/0:0	kept	0.0035714		
+LPC 18:0/0:0	kept	0.0		
+LPE 18:0/0:0	kept	0.067857		
+LPI 18:0/0:0	kept	0.0035714		
+LPC 0:0/20:4	kept	0.0		
+LPE 0:0/20:4	kept	0.0		
+LPC 0:0/22:6	kept	0.16786		
+LPE 0:0/22:6	kept	0.16786		
+LPC 0:0/22:5	kept	0.49286		
+LPE 0:0/22:5	missing too often	0.62857		
+LPC 0:0/20:3	kept	0.38929		
+FA 16:0;O (2-hydroxy)	kept	0.18214		
+MG 0:0/18:2/0:0	kept	0.52857		
+LPC 0:0/18:2	kept	0.0		
+LPE 0:0/18:2	kept	0.05		
+LPC 0:0/14:0	kept	0.36786		
+MG 0:0/18:1/0:0	missing too often	0.68214		
+LPC 0:0/18:1	kept	0.0		
+LPE 0:0/18:1	kept	0.010714		
+LPS 0:0/18:1	kept	0.11786		
+LPC 0:0/16:1	kept	0.11429		
+MG 0:0/16:0/0:0	kept	0.17143		
+LPC 0:0/16:0	kept	0.0035714		
+LPE 0:0/16:0	kept	0.16071		
+LPC 0:0/18:0	kept	0.13929		
+LPE 0:0/18:0	kept	0.68571		
+FA 10:0;O (3-hydroxy)	kept	0.35714		
+FA 8:0;O (3-hydroxy)	kept	0.29286		
+FA 20:4;O (5-HETE)	kept	0.275		
+FA 20:4;O (5-oxo-ETE)	kept	0.24286		
+CAR 2:0	kept	0.0		
+FA 22:4 (n-6)	kept	0.0		
+FA 20:0	kept	0.19286		
+FA 20:4 (n-6)	kept	0.0		
+CAR 4:0	kept	0.0		
+FA 10:0	kept	0.0		
+FA 6:0	kept	0.0035714		
+FA 8:0	kept	0.053571		
+cholesterol	kept	0.0035714		
+FA 18:1 (n-7)	kept	0.010714		
+FA 20:2 (n-6)	kept	0.0		
+FA 20:3	kept	0.0		
+FA 22:2 (n-6)	kept	0.11071		
+FA 22:6 (n-3)	kept	0.0		
+FA 22:5 (n-3)	kept	0.0		
+FA 22:5 (n-6)	kept	0.05		
+FA 22:3 (n-3)	kept	0.0		
+FA 20:5 (n-3)	kept	0.0		
+FA 20:1	kept	0.0		
+FA 22:1 (n-9)	kept	0.375		
+CAR 6:0	kept	0.0035714		
+FA 12:0	kept	0.0		
+CAR 12:0	kept	0.50357		
+FA 18:2 (n-6)	kept	0.0		
+FA 18:3	kept	0.0		
+FA 17:0	kept	0.0		
+FA 14:0	kept	0.0		
+FA 14:1 (n-5)	kept	0.0035714		
+CAR 14:0	kept	0.085714		
+FA 24:1 (n-9)	kept	0.48571		
+CAR 8:0	kept	0.16786		
+FA 18:1 (n-9)	kept	0.0035714		
+CAR 18:1	kept	0.028571		
+FA 16:0	kept	0.0		
+FA 16:1 (n-7)	kept	0.0		
+SM d18:1/16:0	kept	0.0035714		
+CAR 16:0	kept	0.0035714		
+FA 9:0	kept	0.0		
+FA 15:0	kept	0.035714		
+SPH t18:0	kept	0.44643		
+CAR 3:0	kept	0.0		
+SPH d18:0	kept	0.58214		
+SPH d18:1	kept	0.092857		
+FA 18:0	kept	0.0		
+FA 18:4 (n-3)	kept	0.0035714		
+CAR 18:0	kept	0.035714		
+CAR 5:0	kept	0.071429		

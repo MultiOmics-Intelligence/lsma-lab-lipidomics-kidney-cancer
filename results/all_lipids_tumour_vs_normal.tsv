@@ -1,0 +1,105 @@
+lipid	mean_log2_intensity	log2_fold_change	fold_change	statistic	p_value	padj	direction	filled_in_test	filled_in_reference	measured_in_one_group_only	metabolon_name	sub_pathway
+LPE 16:0/0:0	18.145	-4.84	0.034915	-30.978	3.2811e-65	3.4123e-63	down	0	0	False	1-palmitoylglycerophosphoethanolamine	Lysolipid
+LPE 18:1/0:0	18.396	-4.0001	0.062494	-29.122	6.6549000000000004e-62	3.4605e-60	down	0	0	False	1-oleoylglycerophosphoethanolamine	Lysolipid
+FA 20:1	20.444	2.3296	5.0268	24.527	4.9926e-53	1.6945e-51	up	0	0	False	eicosenoate (20:1n9 or 11)	Long chain fatty acid
+LPE 0:0/16:0	15.121	-5.3729	0.024132	-24.471	6.5172e-53	1.6945e-51	down	44	1	False	2-palmitoylglycerophosphoethanolamine*	Lysolipid
+LPE 0:0/18:1	15.634	-3.0575	0.12011	-24.393	9.403e-53	1.9558e-51	down	3	0	False	2-oleoylglycerophosphoethanolamine*	Lysolipid
+LPE 17:0/0:0	13.47	-5.3534	0.024461	-24.075	4.2455999999999994e-52	7.358999999999999e-51	down	85	3	False	1-heptadecanoylglycerophosphoethanolamine*	Lysolipid
+LPE P-16:0	18.925	-2.7141	0.1524	-23.551	5.2425e-51	7.788899999999999e-50	down	0	0	False	1-palmitoylplasmenylethanolamine*	Lysolipid
+LPI 16:0/0:0	15.048	-1.9796	0.25356	-22.166	4.717e-48	6.132e-47	down	5	0	False	1-palmitoylglycerophosphoinositol*	Lysolipid
+FA 20:4 (n-6)	23.631	-1.4024	0.3783	-21.091	1.0901000000000001e-45	1.2597e-44	down	0	0	False	arachidonate (20:4n6)	Long chain fatty acid
+LPE 18:2/0:0	17.119	-2.5438	0.17149	-20.981	1.9213e-45	1.9981e-44	down	0	0	False	1-linoleoylglycerophosphoethanolamine*	Lysolipid
+FA 20:2 (n-6)	20.455	1.47	2.7701	19.742	1.2454e-42	1.1775000000000002e-41	up	0	0	False	dihomo-linoleate (20:2n6)	Long chain fatty acid
+FA 22:2 (n-6)	15.91	1.7816	3.4382	18.016	1.4136999999999998e-38	1.2252e-37	up	15	16	False	docosadienoate (22:2n6)	Long chain fatty acid
+LPE 18:0/0:0	17.75	-3.209	0.10814	-17.65	1.0752e-37	8.6019e-37	down	19	0	False	1-stearoylglycerophosphoethanolamine	Lysolipid
+FA 19:1 (n-9)	17.308	1.2708	2.413	17.599	1.4279e-37	1.0607e-36	up	0	0	False	10-nonadecenoate (19:1n9)	Long chain fatty acid
+LPI 18:0/0:0	16.633	-1.5775	0.33505	-17.578	1.6096e-37	1.1160000000000001e-36	down	1	0	False	1-stearoylglycerophosphoinositol	Lysolipid
+CAR 2:0	22.669	1.6744	3.1918	17.442	3.4232e-37	2.2251e-36	up	0	0	False	acetylcarnitine	Carnitine metabolism
+FA 22:3 (n-3)	15.827	1.4254	2.6859	17.403	4.2592e-37	2.6055999999999998e-36	up	0	0	False	docosatrienoate (22:3n3)	Long chain fatty acid
+LPE 16:1/0:0	14.058	-3.0363	0.1219	-17.135	1.9176e-36	1.1079e-35	down	134	29	False	1-palmitoleoylglycerophosphoethanolamine*	Lysolipid
+FA 22:1 (n-9)	13.181	2.7254	6.6137	14.895	7.3963e-31	4.0485e-30	up	23	82	False	erucate (22:1n9)	Long chain fatty acid
+FA 17:1 (n-7)	18.268	0.89519	1.8599	14.825	1.1159e-30	5.8026e-30	up	0	0	False	10-heptadecenoate (17:1n7)	Long chain fatty acid
+LPI 18:1/0:0	15.292	-1.3434	0.3941	-14.434	1.1089e-29	5.4918e-29	down	7	1	False	1-oleoylglycerophosphoinositol*	Lysolipid
+LPE 20:4/0:0	17.92	-0.9802	0.50691	-14.235	3.5982e-29	1.6872e-28	down	0	0	False	1-arachidonoylglycerophosphoethanolamine*	Lysolipid
+FA 22:6 (n-3)	20.329	-1.1236	0.45894	-14.229	3.7312e-29	1.6872e-28	down	0	0	False	docosahexaenoate (DHA; 22:6n3)	Essential fatty acid
+LPE 14:0/0:0	13.73	-2.1322	0.2281	-13.464	3.4951e-27	1.5145e-26	down	139	49	False	1-myristoylglycerophosphoethanolamine	Lysolipid
+CAR 12:0	13.785	2.3157	4.9784	13.36	6.490100000000001e-27	2.6999e-26	up	31	110	False	laurylcarnitine	Carnitine metabolism
+LPE 0:0/18:0	14.057	-3.2777	0.10311	-12.993	5.8325e-26	2.3330000000000003e-25	down	136	56	False	2-stearoylglycerophosphoethanolamine*	Lysolipid
+FA 20:4;O (5-oxo-ETE)	13.219	-1.8872	0.27033	-12.851	1.3645e-25	5.255700000000001e-25	down	60	8	False	5-oxoETE	Eicosanoid
+FA 17:0 (branched)	17.923	0.67631	1.598	11.727	1.1619e-22	4.3157e-22	up	1	0	False	15-methylpalmitate (isobar with 2-methylpalmitate)	Fatty acid, branched
+LPC 0:0/16:1	16.124	1.6353	3.1066	11.251	2.0355999999999998e-21	7.3e-21	up	8	24	False	2-palmitoleoylglycerophosphocholine*	Lysolipid
+LPS 18:1/0:0	16.629	-0.96534	0.51216	-11.169	3.3271999999999996e-21	1.1534e-20	down	1	0	False	1-oleoylglycerophosphoserine	Lysolipid
+FA 24:1 (n-9)	11.584	2.4377	5.4177	11.153	3.6651e-21	1.2296e-20	up	39	97	False	nervonate (24:1n9)	Long chain fatty acid
+FA 16:1 (n-7)	21.415	0.70063	1.6252	10.862	2.1055e-20	6.8428e-20	up	0	0	False	palmitoleate (16:1n7)	Long chain fatty acid
+LPI 20:4/0:0	17.12	-0.69982	0.61565	-10.787	3.3041e-20	1.0413e-19	down	0	0	False	1-arachidonoylglycerophosphoinositol*	Lysolipid
+FA 18:0	22.76	0.61389	1.5304	10.621	8.9198e-20	2.7284000000000003e-19	up	0	0	False	stearate (18:0)	Long chain fatty acid
+FA 20:4;O (5-HETE)	13.33	-2.1246	0.22931	-10.484	2.0164000000000002e-19	5.9916e-19	down	61	16	False	5-HETE	Eicosanoid
+FA 18:2 (n-6)	23.363	0.60992	1.5262	10.441	2.6115e-19	7.544200000000001e-19	up	0	0	False	linoleate (18:2n6)	Essential fatty acid
+FA 18:4 (n-3)	14.734	0.94194	1.9211	10.19	1.1623e-18	3.2669e-18	up	0	1	False	stearidonate (18:4n3)	Long chain fatty acid
+FA 18:3	19.984	0.82284	1.7689	10.131	1.6531e-18	4.5242e-18	up	0	0	False	linolenate [alpha or gamma; (18:3n3 or 6)]	Essential fatty acid
+SPH d18:1	16.735	1.6975	3.2434	9.8848	7.141e-18	1.9043e-17	up	3	23	False	sphingosine	Sphingolipid
+LPE 0:0/18:2	14.807	-1.3566	0.39051	-9.7595	1.4988e-17	3.8968e-17	down	11	3	False	2-linoleoylglycerophosphoethanolamine*	Lysolipid
+CAR 8:0	14.865	1.6521	3.143	9.5927	4.0116e-17	1.0176e-16	up	10	37	False	octanoylcarnitine	Carnitine metabolism
+CAR 18:1	18.067	2.2197	4.6579	9.5681	4.6379e-17	1.1484e-16	up	1	7	False	oleoylcarnitine	Carnitine metabolism
+FA 20:0	15.335	1.3782	2.5994	9.4591	8.8026e-17	2.129e-16	up	21	33	False	arachidate (20:0)	Long chain fatty acid
+FA 16:0;O (2-hydroxy)	15.263	1.3769	2.5972	9.3074	2.1437e-16	5.0669e-16	up	1	50	False	2-hydroxypalmitate	Fatty acid, monohydroxy
+LPC 15:0/0:0	14.423	-1.5998	0.32993	-8.6119	1.2117e-14	2.8003e-14	down	66	18	False	1-pentadecanoylglycerophosphocholine*	Lysolipid
+CAR 6:0	17.421	0.97405	1.9644	8.5746	1.5003e-14	3.392e-14	up	0	1	False	hexanoylcarnitine	Carnitine metabolism
+LPC 17:0/0:0	15.369	-1.5569	0.33988	-8.3687	4.8617e-14	1.0758e-13	down	46	10	False	1-heptadecanoylglycerophosphocholine	Lysolipid
+FA 20:5 (n-3)	20.098	-0.78919	0.57867	-8.3019	7.1089e-14	1.5403e-13	down	0	0	False	eicosapentaenoate (EPA; 20:5n3)	Essential fatty acid
+LPC 18:1/0:0	19.67	-1.2945	0.40769	-8.2752	8.2689e-14	1.755e-13	down	0	0	False	1-oleoylglycerophosphocholine	Lysolipid
+LPC 16:0/0:0	21.337	-1.2406	0.42321	-7.9224	6.0242e-13	1.246e-12	down	0	0	False	1-palmitoylglycerophosphocholine	Lysolipid
+CAR 16:0	18.27	1.5116	2.8514	7.9199	6.1103e-13	1.246e-12	up	0	1	False	palmitoylcarnitine	Carnitine metabolism
+FA 17:0	18.421	0.43857	1.3553	7.9049	6.6437e-13	1.3287e-12	up	0	0	False	margarate (17:0)	Long chain fatty acid
+CAR 5:0	15.522	-0.93825	0.52186	-7.8968	6.9511e-13	1.364e-12	down	18	2	False	valerylcarnitine	Fatty acid metabolism
+CAR 14:0	16.516	1.3822	2.6066	7.8507	8.9877e-13	1.731e-12	up	8	16	False	myristoylcarnitine	Carnitine metabolism
+SPH d18:0	13.168	1.4749	2.7796	7.8366	9.7208e-13	1.8381e-12	up	61	102	False	sphinganine	Sphingolipid
+FA 16:0	23.474	0.42024	1.3382	7.7051	2.0159e-12	3.7439e-12	up	0	0	False	palmitate (16:0)	Long chain fatty acid
+LPC 0:0/14:0	14.334	1.1014	2.1456	7.6505	2.7247e-12	4.9714e-12	up	39	64	False	2-myristoylglycerophosphocholine*	Lysolipid
+FA 18:1 (n-9)	23.157	0.6765	1.5983	7.5997	3.6044e-12	6.463e-12	up	1	0	False	oleate (18:1n9)	Long chain fatty acid
+FA 18:1 (n-7)	20.241	0.68993	1.6132	7.4914	6.5264e-12	1.1504e-11	up	3	0	False	cis-vaccenate (18:1n7)	Long chain fatty acid
+CAR 4:0	19.808	0.8218	1.7676	7.384	1.1722e-11	2.0319e-11	up	0	0	False	butyrylcarnitine	Fatty acid metabolism (also BCAA metabolism)
+FA 22:5 (n-6)	18.22	-0.79512	0.57629	-7.1083	5.1849e-11	8.8398e-11	down	12	2	False	docosapentaenoate (n6 DPA; 22:5n6)	Essential fatty acid
+FA 15:0	17.711	0.57854	1.4933	6.9725	1.0683e-10	1.7921e-10	up	6	4	False	pentadecanoate (15:0)	Long chain fatty acid
+FA 22:4 (n-6)	20.803	0.39948	1.319	6.9072	1.5089e-10	2.4908e-10	up	0	0	False	adrenate (22:4n6)	Long chain fatty acid
+LPC 14:0/0:0	15.812	-1.0458	0.48438	-6.6403	6.0965e-10	9.9069e-10	down	27	5	False	1-myristoylglycerophosphocholine	Lysolipid
+MG 18:1/0:0/0:0	16.556	0.743	1.6737	6.5636	9.0611e-10	1.4498e-09	up	3	2	False	1-oleoylglycerol (1-monoolein)	Monoacylglycerol
+cholesterol	22.854	0.45011	1.3661	6.0379	1.2855e-08	2.0256e-08	up	1	0	False	cholesterol	Sterol/Steroid
+MG 18:0/0:0/0:0	17.081	-0.4185	0.7482	-5.8283	3.5783e-08	5.5543e-08	down	1	0	False	1-stearoylglycerol (1-monostearin)	Monoacylglycerol
+LPC 16:1/0:0	16.923	-0.8117	0.56971	-5.1142	9.9771e-07	1.5259e-06	down	8	2	False	1-palmitoleoylglycerophosphocholine*	Lysolipid
+MG 0:0/18:2/0:0	11.572	1.1223	2.177	5.0816	1.1543e-06	1.7398e-06	up	67	81	False	2-linoleoylglycerol (2-monolinolein)	Monoacylglycerol
+LPC 18:0/0:0	19.844	-0.93007	0.52483	-4.9749	1.8507e-06	2.7496e-06	down	0	0	False	1-stearoylglycerophosphocholine	Lysolipid
+LPC 22:6/0:0	14.93	-0.86779	0.54799	-4.9201	2.3533e-06	3.447e-06	down	63	24	False	1-docosahexaenoylglycerophosphocholine*	Lysolipid
+LPC 0:0/18:0	15.721	-0.90318	0.53471	-4.5054	1.3685e-05	1.9767e-05	down	24	15	False	2-stearoylglycerophosphocholine*	Lysolipid
+MG 18:2/0:0/0:0	14.555	0.64244	1.561	3.9873	0.0001063	0.00015144	up	17	13	False	1-linoleoylglycerol (1-monolinolein)	Monoacylglycerol
+FA 20:3	21.218	0.28485	1.2183	3.9762	0.00011086	0.0001558	up	0	0	False	dihomo-linolenate (20:3n3 or n6)	Essential fatty acid
+CAR 18:0	17.815	0.7953	1.7354	3.6729	0.0003383	0.00046911	up	2	8	False	stearoylcarnitine	Carnitine metabolism
+FA 22:5 (n-3)	20.313	0.2637	1.2005	3.6216	0.0004061	0.00055572	up	0	0	False	docosapentaenoate (n3 DPA; 22:5n3)	Essential fatty acid
+FA 14:1 (n-5)	16.754	-0.21136	0.86372	-3.3958	0.00088664	0.0011975	down	1	0	False	myristoleate (14:1n5)	Long chain fatty acid
+LPC 0:0/20:4	18.607	0.49553	1.4098	3.054	0.0026951	0.0035935	up	0	0	False	2-arachidonoylglycerophosphocholine*	Lysolipid
+FA 14:0	20.264	0.1744	1.1285	3.0193	0.0030029	0.0039532	up	0	0	False	myristate (14:0)	Long chain fatty acid
+FA 18:2;O (HODE)	15.896	0.26525	1.2018	2.4264	0.016499	0.021449	up	0	0	False	13-HODE + 9-HODE	Fatty acid, monohydroxy
+LPC 0:0/22:5	13.607	0.44005	1.3567	2.3965	0.017848	0.022917	up	66	72	False	2-docosapentaenoylglycerophosphocholine*	Lysolipid
+LPS 0:0/18:1	14.019	-0.34071	0.78965	-2.3852	0.018386	0.023318	down	27	6	False	2-oleoylglycerophosphoserine*	Lysolipid
+CAR 3:0	19.234	-0.18973	0.87677	-1.844	0.067257	0.084274	ns	0	0	False	propionylcarnitine	Fatty acid metabolism (also BCAA metabolism)
+FA 8:0;O (3-hydroxy)	11.394	-0.22002	0.85856	-1.7743	0.078149	0.096756	ns	53	29	False	3-hydroxyoctanoate	Fatty acid, monohydroxy
+LPE 0:0/22:6	15.181	0.28152	1.2155	1.7473	0.082737	0.10123	ns	24	23	False	2-docosahexaenoylglycerophosphoethanolamine*	Lysolipid
+MG 16:0/0:0/0:0	18.463	-0.15179	0.90013	-1.682	0.094755	0.11459	ns	1	0	False	1-palmitoylglycerol (1-monopalmitin)	Monoacylglycerol
+LPC 18:2/0:0	19.635	-0.23751	0.84821	-1.6559	0.099931	0.11946	ns	0	0	False	1-linoleoylglycerophosphocholine	Lysolipid
+SM d18:1/16:0	22.342	0.13657	1.0993	1.5966	0.11258	0.13304	ns	1	0	False	palmitoyl sphingomyelin	Sphingolipid
+LPC 0:0/18:2	19.513	0.24457	1.1847	1.5284	0.12862	0.14958	ns	0	0	False	2-linoleoylglycerophosphocholine*	Lysolipid
+FA 12:0	18.583	-0.12308	0.91822	-1.5251	0.12944	0.14958	ns	0	0	False	laurate (12:0)	Medium chain fatty acid
+LPC 0:0/20:3	16.285	0.26142	1.1987	1.3149	0.19067	0.21791	ns	57	52	False	2-eicosatrienoylglycerophosphocholine*	Lysolipid
+FA 10:0;O (3-hydroxy)	11.786	-0.15302	0.89937	-0.96571	0.33583	0.37963	ns	57	43	False	3-hydroxydecanoate	Fatty acid, monohydroxy
+LPC 0:0/18:1	18.875	-0.13752	0.90908	-0.82735	0.40942	0.45785	ns	0	0	False	2-oleoylglycerophosphocholine*	Lysolipid
+FA 6:0	13.801	-0.067912	0.95402	-0.80483	0.42226	0.46718	ns	1	0	False	caproate (6:0)	Medium chain fatty acid
+FA 8:0	14.084	-0.081363	0.94516	-0.79668	0.42696	0.46741	ns	13	2	False	caprylate (8:0)	Medium chain fatty acid
+LPC 20:4/0:0	18.306	-0.11279	0.9248	-0.728	0.46781	0.50679	ns	1	0	False	1-arachidonoylglycerophosphocholine*	Lysolipid
+FA 9:0	16.453	0.045846	1.0323	0.67963	0.49784	0.53376	ns	0	0	False	pelargonate (9:0)	Medium chain fatty acid
+SPH t18:0	13.555	0.10443	1.0751	0.64722	0.51853	0.55028	ns	65	60	False	phytosphingosine	Sphingolipid
+LPC 0:0/16:0	18.204	-0.097895	0.9344	-0.62742	0.53139	0.55823	ns	1	0	False	2-palmitoylglycerophosphocholine*	Lysolipid
+LPC 0:0/22:6	15.15	-0.099581	0.9333	-0.56157	0.57529	0.5983	ns	29	18	False	2-docosahexaenoylglycerophosphocholine*	Lysolipid
+MG 0:0/16:0/0:0	17.216	0.067481	1.0479	0.467	0.64122	0.66026	ns	32	16	False	2-palmitoylglycerol (2-monopalmitin)	Monoacylglycerol
+LPE 0:0/20:4	16.394	-0.019124	0.98683	-0.2384	0.81192	0.82784	ns	0	0	False	2-arachidonoylglycerophosphoethanolamine*	Lysolipid
+FA 16:0;O (16-hydroxy)	12.835	0.017473	1.0122	0.15953	0.87347	0.87526	ns	5	5	False	16-hydroxypalmitate	Fatty acid, monohydroxy
+FA 10:0	16.244	-0.010872	0.99249	-0.15726	0.87526	0.87526	ns	0	0	False	caprate (10:0)	Medium chain fatty acid

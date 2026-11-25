@@ -1,0 +1,13 @@
+enzyme	label	protein_lfc	protein_padj	rna_lfc	rna_padj
+SCD	"SCD: makes mono-unsaturated
+from saturated fatty acids"	1.3728	0.0	3.3339	0.0
+ACSL4	"ACSL4: puts polyunsaturated
+fatty acids into membranes"	-0.65222	0.0	-1.4118	0.0
+PLA2G4A	"PLA2G4A: makes
+lysophospholipids"	-0.69346	0.0	-1.3108	0.0
+PCYT2	"PCYT2: makes the PE
+that LPE comes from"	-1.3021	0.0	-1.4394	0.0
+CPT2	"CPT2: burns acylcarnitines
+in mitochondria"	-1.0894	0.0	-0.46559	0.00564
+CRAT	"CRAT: also uses
+acylcarnitines"	-1.3199	0.0	-0.50227	0.00444

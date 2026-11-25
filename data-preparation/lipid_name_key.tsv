@@ -1,0 +1,108 @@
+lipid	name_in_source_data	sub_pathway
+FA 17:1 (n-7)	10-heptadecenoate (17:1n7)	Long chain fatty acid
+FA 19:1 (n-9)	10-nonadecenoate (19:1n9)	Long chain fatty acid
+FA 18:2;O (HODE)	13-HODE + 9-HODE	Fatty acid, monohydroxy
+FA 17:0 (branched)	15-methylpalmitate (isobar with 2-methylpalmitate)	Fatty acid, branched
+FA 16:0;O (16-hydroxy)	16-hydroxypalmitate	Fatty acid, monohydroxy
+LPC 20:4/0:0	1-arachidonoylglycerophosphocholine*	Lysolipid
+LPE 20:4/0:0	1-arachidonoylglycerophosphoethanolamine*	Lysolipid
+LPI 20:4/0:0	1-arachidonoylglycerophosphoinositol*	Lysolipid
+MG 20:4/0:0/0:0	1-arachidonylglycerol	Monoacylglycerol
+LPC 22:6/0:0	1-docosahexaenoylglycerophosphocholine*	Lysolipid
+LPC 17:0/0:0	1-heptadecanoylglycerophosphocholine	Lysolipid
+LPE 17:0/0:0	1-heptadecanoylglycerophosphoethanolamine*	Lysolipid
+MG 18:2/0:0/0:0	1-linoleoylglycerol (1-monolinolein)	Monoacylglycerol
+LPC 18:2/0:0	1-linoleoylglycerophosphocholine	Lysolipid
+LPE 18:2/0:0	1-linoleoylglycerophosphoethanolamine*	Lysolipid
+LPC 14:0/0:0	1-myristoylglycerophosphocholine	Lysolipid
+LPE 14:0/0:0	1-myristoylglycerophosphoethanolamine	Lysolipid
+MG 18:1/0:0/0:0	1-oleoylglycerol (1-monoolein)	Monoacylglycerol
+LPC 18:1/0:0	1-oleoylglycerophosphocholine	Lysolipid
+LPE 18:1/0:0	1-oleoylglycerophosphoethanolamine	Lysolipid
+LPI 18:1/0:0	1-oleoylglycerophosphoinositol*	Lysolipid
+LPS 18:1/0:0	1-oleoylglycerophosphoserine	Lysolipid
+LPC 16:1/0:0	1-palmitoleoylglycerophosphocholine*	Lysolipid
+LPE 16:1/0:0	1-palmitoleoylglycerophosphoethanolamine*	Lysolipid
+MG 16:0/0:0/0:0	1-palmitoylglycerol (1-monopalmitin)	Monoacylglycerol
+LPC 16:0/0:0	1-palmitoylglycerophosphocholine	Lysolipid
+LPE 16:0/0:0	1-palmitoylglycerophosphoethanolamine	Lysolipid
+LPI 16:0/0:0	1-palmitoylglycerophosphoinositol*	Lysolipid
+LPE P-16:0	1-palmitoylplasmenylethanolamine*	Lysolipid
+LPC 15:0/0:0	1-pentadecanoylglycerophosphocholine*	Lysolipid
+MG 18:0/0:0/0:0	1-stearoylglycerol (1-monostearin)	Monoacylglycerol
+LPC 18:0/0:0	1-stearoylglycerophosphocholine	Lysolipid
+LPE 18:0/0:0	1-stearoylglycerophosphoethanolamine	Lysolipid
+LPI 18:0/0:0	1-stearoylglycerophosphoinositol	Lysolipid
+LPC 0:0/20:4	2-arachidonoylglycerophosphocholine*	Lysolipid
+LPE 0:0/20:4	2-arachidonoylglycerophosphoethanolamine*	Lysolipid
+LPC 0:0/22:6	2-docosahexaenoylglycerophosphocholine*	Lysolipid
+LPE 0:0/22:6	2-docosahexaenoylglycerophosphoethanolamine*	Lysolipid
+LPC 0:0/22:5	2-docosapentaenoylglycerophosphocholine*	Lysolipid
+LPE 0:0/22:5	2-docosapentaenoylglycerophosphoethanolamine*	Lysolipid
+LPC 0:0/20:3	2-eicosatrienoylglycerophosphocholine*	Lysolipid
+FA 16:0;O (2-hydroxy)	2-hydroxypalmitate	Fatty acid, monohydroxy
+MG 0:0/18:2/0:0	2-linoleoylglycerol (2-monolinolein)	Monoacylglycerol
+LPC 0:0/18:2	2-linoleoylglycerophosphocholine*	Lysolipid
+LPE 0:0/18:2	2-linoleoylglycerophosphoethanolamine*	Lysolipid
+LPC 0:0/14:0	2-myristoylglycerophosphocholine*	Lysolipid
+MG 0:0/18:1/0:0	2-oleoylglycerol (2-monoolein)	Monoacylglycerol
+LPC 0:0/18:1	2-oleoylglycerophosphocholine*	Lysolipid
+LPE 0:0/18:1	2-oleoylglycerophosphoethanolamine*	Lysolipid
+LPS 0:0/18:1	2-oleoylglycerophosphoserine*	Lysolipid
+LPC 0:0/16:1	2-palmitoleoylglycerophosphocholine*	Lysolipid
+MG 0:0/16:0/0:0	2-palmitoylglycerol (2-monopalmitin)	Monoacylglycerol
+LPC 0:0/16:0	2-palmitoylglycerophosphocholine*	Lysolipid
+LPE 0:0/16:0	2-palmitoylglycerophosphoethanolamine*	Lysolipid
+LPC 0:0/18:0	2-stearoylglycerophosphocholine*	Lysolipid
+LPE 0:0/18:0	2-stearoylglycerophosphoethanolamine*	Lysolipid
+FA 10:0;O (3-hydroxy)	3-hydroxydecanoate	Fatty acid, monohydroxy
+FA 8:0;O (3-hydroxy)	3-hydroxyoctanoate	Fatty acid, monohydroxy
+FA 20:4;O (5-HETE)	5-HETE	Eicosanoid
+FA 20:4;O (5-oxo-ETE)	5-oxoETE	Eicosanoid
+CAR 2:0	acetylcarnitine	Carnitine metabolism
+FA 22:4 (n-6)	adrenate (22:4n6)	Long chain fatty acid
+FA 20:0	arachidate (20:0)	Long chain fatty acid
+FA 20:4 (n-6)	arachidonate (20:4n6)	Long chain fatty acid
+CAR 4:0	butyrylcarnitine	Fatty acid metabolism (also BCAA metabolism)
+FA 10:0	caprate (10:0)	Medium chain fatty acid
+FA 6:0	caproate (6:0)	Medium chain fatty acid
+FA 8:0	caprylate (8:0)	Medium chain fatty acid
+cholesterol	cholesterol	Sterol/Steroid
+FA 18:1 (n-7)	cis-vaccenate (18:1n7)	Long chain fatty acid
+FA 20:2 (n-6)	dihomo-linoleate (20:2n6)	Long chain fatty acid
+FA 20:3	dihomo-linolenate (20:3n3 or n6)	Essential fatty acid
+FA 22:2 (n-6)	docosadienoate (22:2n6)	Long chain fatty acid
+FA 22:6 (n-3)	docosahexaenoate (DHA; 22:6n3)	Essential fatty acid
+FA 22:5 (n-3)	docosapentaenoate (n3 DPA; 22:5n3)	Essential fatty acid
+FA 22:5 (n-6)	docosapentaenoate (n6 DPA; 22:5n6)	Essential fatty acid
+FA 22:3 (n-3)	docosatrienoate (22:3n3)	Long chain fatty acid
+FA 20:5 (n-3)	eicosapentaenoate (EPA; 20:5n3)	Essential fatty acid
+FA 20:1	eicosenoate (20:1n9 or 11)	Long chain fatty acid
+FA 22:1 (n-9)	erucate (22:1n9)	Long chain fatty acid
+CAR 6:0	hexanoylcarnitine	Carnitine metabolism
+FA 12:0	laurate (12:0)	Medium chain fatty acid
+CAR 12:0	laurylcarnitine	Carnitine metabolism
+FA 18:2 (n-6)	linoleate (18:2n6)	Essential fatty acid
+FA 18:3	linolenate [alpha or gamma; (18:3n3 or 6)]	Essential fatty acid
+FA 17:0	margarate (17:0)	Long chain fatty acid
+FA 14:0	myristate (14:0)	Long chain fatty acid
+FA 14:1 (n-5)	myristoleate (14:1n5)	Long chain fatty acid
+CAR 14:0	myristoylcarnitine	Carnitine metabolism
+FA 24:1 (n-9)	nervonate (24:1n9)	Long chain fatty acid
+CAR 8:0	octanoylcarnitine	Carnitine metabolism
+FA 18:1 (n-9)	oleate (18:1n9)	Long chain fatty acid
+CAR 18:1	oleoylcarnitine	Carnitine metabolism
+FA 16:0	palmitate (16:0)	Long chain fatty acid
+FA 16:1 (n-7)	palmitoleate (16:1n7)	Long chain fatty acid
+SM d18:1/16:0	palmitoyl sphingomyelin	Sphingolipid
+CAR 16:0	palmitoylcarnitine	Carnitine metabolism
+FA 9:0	pelargonate (9:0)	Medium chain fatty acid
+FA 15:0	pentadecanoate (15:0)	Long chain fatty acid
+SPH t18:0	phytosphingosine	Sphingolipid
+CAR 3:0	propionylcarnitine	Fatty acid metabolism (also BCAA metabolism)
+SPH d18:0	sphinganine	Sphingolipid
+SPH d18:1	sphingosine	Sphingolipid
+FA 18:0	stearate (18:0)	Long chain fatty acid
+FA 18:4 (n-3)	stearidonate (18:4n3)	Long chain fatty acid
+CAR 18:0	stearoylcarnitine	Carnitine metabolism
+CAR 5:0	valerylcarnitine	Fatty acid metabolism

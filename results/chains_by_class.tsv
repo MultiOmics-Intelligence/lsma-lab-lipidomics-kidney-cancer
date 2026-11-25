@@ -1,0 +1,6 @@
+lipid_class	lipids	double_bonds_reference	double_bonds_test	double_bonds_difference	double_bonds_p	carbons_reference	carbons_test	carbons_difference	carbons_p	double_bonds_q	carbons_q
+LPE	14	0.893	2.359	1.553	2.413e-24	17.51	18.8	1.373	1.788e-24	1.2059999999999999e-23	8.939999999999999e-24
+FA	41	2.257	1.573	-0.743	3.594e-23	18.55	18.14	-0.42	9.722e-18	8.985e-23	2.43e-17
+MG	6	0.16	0.272	0.1	7.996e-19	16.66	16.75	0.083	4.267e-05	1.333e-18	5.334e-05
+LPC	20	0.865	1.286	0.45	1.229e-17	17.28	17.61	0.378	4.009e-16	1.536e-17	6.682e-16
+CAR	11	0.039	0.06	0.016	0.0001334	4.66	4.62	0.016	0.9959	0.0001334	0.9959

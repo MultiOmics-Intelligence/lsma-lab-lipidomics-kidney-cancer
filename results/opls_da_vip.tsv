@@ -1,0 +1,105 @@
+lipid	vip	loading	higher_in
+LPE 17:0/0:0	2.534	-0.2492	normal
+LPE 0:0/16:0	2.511	-0.2469	normal
+LPE 16:0/0:0	2.494	-0.2452	normal
+LPE 18:1/0:0	2.267	-0.2229	normal
+LPE 0:0/18:1	1.95	-0.1918	normal
+LPE P-16:0	1.826	-0.1796	normal
+LPE 16:1/0:0	1.785	-0.1755	normal
+LPE 18:2/0:0	1.776	-0.1746	normal
+LPE 18:0/0:0	1.739	-0.171	normal
+LPE 0:0/18:0	1.648	-0.1621	normal
+FA 20:1	1.609	0.1583	tumour
+FA 22:1 (n-9)	1.576	0.155	tumour
+LPI 16:0/0:0	1.522	-0.1497	normal
+CAR 18:1	1.431	0.1408	tumour
+CAR 12:0	1.416	0.1393	tumour
+FA 24:1 (n-9)	1.41	0.1387	tumour
+FA 20:4;O (5-HETE)	1.371	-0.1349	normal
+LPE 14:0/0:0	1.371	-0.1348	normal
+FA 20:4;O (5-oxo-ETE)	1.323	-0.1301	normal
+FA 20:4 (n-6)	1.3	-0.1278	normal
+LPI 18:0/0:0	1.283	-0.1262	normal
+CAR 2:0	1.252	0.1232	tumour
+LPC 0:0/16:1	1.202	0.1182	tumour
+FA 22:2 (n-6)	1.193	0.1173	tumour
+FA 20:2 (n-6)	1.192	0.1173	tumour
+SPH d18:1	1.178	0.1158	tumour
+FA 22:3 (n-3)	1.149	0.113	tumour
+LPI 18:1/0:0	1.133	-0.1114	normal
+CAR 16:0	1.117	0.1098	tumour
+FA 19:1 (n-9)	1.115	0.1096	tumour
+LPE 0:0/18:2	1.095	-0.1077	normal
+FA 22:6 (n-3)	1.061	-0.1043	normal
+CAR 8:0	1.032	0.1014	tumour
+SPH d18:0	1.022	0.1005	tumour
+CAR 14:0	0.9858	0.09695	tumour
+FA 20:0	0.9851	0.09688	tumour
+LPE 20:4/0:0	0.9741	-0.09579	normal
+LPC 15:0/0:0	0.9452	-0.09296	normal
+FA 16:0;O (2-hydroxy)	0.929	0.09137	tumour
+LPC 17:0/0:0	0.9055	-0.08905	normal
+LPS 18:1/0:0	0.8923	-0.08775	normal
+FA 17:1 (n-7)	0.8677	0.08533	tumour
+LPC 18:1/0:0	0.8383	-0.08244	normal
+LPC 0:0/14:0	0.83	0.08162	tumour
+LPC 16:0/0:0	0.8274	-0.08137	normal
+LPI 20:4/0:0	0.794	-0.07809	normal
+CAR 6:0	0.7799	0.0767	tumour
+FA 18:4 (n-3)	0.7586	0.0746	tumour
+FA 20:5 (n-3)	0.7464	-0.0734	normal
+FA 22:5 (n-6)	0.7217	-0.07098	normal
+LPC 14:0/0:0	0.7207	-0.07088	normal
+FA 18:3	0.719	0.07071	tumour
+CAR 5:0	0.7098	-0.06981	normal
+FA 16:1 (n-7)	0.7048	0.06932	tumour
+CAR 18:0	0.6864	0.0675	tumour
+FA 17:0 (branched)	0.6805	0.06692	tumour
+FA 18:0	0.6732	0.0662	tumour
+MG 0:0/18:2/0:0	0.66	0.06491	tumour
+CAR 4:0	0.6584	0.06475	tumour
+FA 18:2 (n-6)	0.6209	0.06106	tumour
+FA 18:1 (n-7)	0.5993	0.05894	tumour
+FA 18:1 (n-9)	0.578	0.05684	tumour
+LPC 16:1/0:0	0.564	-0.05546	normal
+MG 18:1/0:0/0:0	0.5587	0.05495	tumour
+FA 15:0	0.5545	0.05454	tumour
+LPC 22:6/0:0	0.5466	-0.05375	normal
+LPC 18:0/0:0	0.5324	-0.05236	normal
+LPC 0:0/20:4	0.5024	0.04941	tumour
+FA 17:0	0.4986	0.04904	tumour
+LPC 0:0/18:0	0.4913	-0.04831	normal
+MG 18:0/0:0/0:0	0.4831	-0.04751	normal
+FA 16:0	0.4669	0.04592	tumour
+cholesterol	0.4295	0.04224	tumour
+LPC 0:0/22:5	0.4294	0.04223	tumour
+MG 18:2/0:0/0:0	0.3642	0.03581	tumour
+LPE 0:0/22:6	0.349	0.03432	tumour
+FA 22:4 (n-6)	0.3468	0.03411	tumour
+LPC 0:0/18:2	0.3237	0.03184	tumour
+LPC 0:0/20:3	0.3026	0.02976	tumour
+FA 8:0;O (3-hydroxy)	0.273	-0.02685	normal
+CAR 3:0	0.2536	-0.02495	normal
+LPS 0:0/18:1	0.2446	-0.02405	normal
+FA 14:1 (n-5)	0.2436	-0.02396	normal
+SPH t18:0	0.2335	0.02297	tumour
+FA 18:2;O (HODE)	0.233	0.02291	tumour
+FA 20:3	0.232	0.02282	tumour
+FA 10:0;O (3-hydroxy)	0.2003	-0.0197	normal
+FA 14:0	0.1814	0.01784	tumour
+FA 22:5 (n-3)	0.1741	0.01712	tumour
+MG 16:0/0:0/0:0	0.167	-0.01642	normal
+FA 6:0	0.1435	-0.01411	normal
+FA 12:0	0.1433	-0.01409	normal
+FA 8:0	0.1238	-0.01218	normal
+LPC 18:2/0:0	0.08355	-0.008216	normal
+LPC 0:0/22:6	0.07313	0.007192	tumour
+SM d18:1/16:0	0.07294	0.007174	tumour
+FA 10:0	0.06391	-0.006285	normal
+MG 0:0/16:0/0:0	0.06173	0.006071	tumour
+LPC 20:4/0:0	0.06088	0.005987	tumour
+LPC 0:0/18:1	0.05551	0.00546	tumour
+LPE 0:0/20:4	0.05016	-0.004933	normal
+FA 16:0;O (16-hydroxy)	0.01045	-0.001028	normal
+LPC 0:0/16:0	0.004788	0.0004708	tumour
+FA 9:0	0.002529	-0.0002487	normal

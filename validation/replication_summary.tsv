@@ -1,0 +1,4 @@
+lipids	matched	same_direction	pct_same	also_significant
+Strong changes (padj < 0.05, |log2FC| > 1)	28	28	100.0	25
+All significant (padj < 0.05)	58	51	87.9	37
+All matched lipids	70	57	81.4	41

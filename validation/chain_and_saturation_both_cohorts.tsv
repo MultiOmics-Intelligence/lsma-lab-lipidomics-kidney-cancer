@@ -1,0 +1,8 @@
+	main	main	main	independent	independent	independent
+	mean_reference	mean_test	q_value	mean_reference	mean_test	q_value
+measure						
+Mean chain length (carbons per lipid)	18.0526	16.816	0.0	15.486	14.1577	0.1621
+Mean double bonds per lipid	1.7088	1.2693	0.0	1.1326	0.4964	0.0021
+Mono- or di-unsaturated (% of the signal)	32.184	42.358	0.0	24.156	22.439	0.1674
+Polyunsaturated (3 or more) (% of the signal)	30.814	17.189	0.0	19.083	4.792	0.0007
+Saturated (% of the signal)	37.002	40.453	0.0	56.761	72.77	0.0067
