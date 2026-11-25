@@ -197,6 +197,80 @@ Every lab step below is a stage in the LSMA Analysis Lab, run with the settings 
 
 **Software:** R 4.5.2 and Bioconductor 3.21, with limma and ropls, in the versions listed in the settings file.
 
+## The mathematics behind the methods
+
+The standard forms of the methods used above, as the lab's code applies them. Lipid $i$, sample $j$.
+
+**Half-minimum imputation and probabilistic quotient normalisation (PQN).**
+
+$$
+x_{ij} = \tfrac{1}{2} \min_{k} x_{ik} \quad \text{if missing}, \qquad r_i = \operatorname{median}_{j}   x_{ij}, \qquad f_j = \operatorname{median}_{i} \frac{x_{ij}}{r_i}, \qquad y_{ij} = \log_2 \frac{x_{ij}}{f_j}
+$$
+
+$x_{ij}$ is the measured intensity. A value below the detection limit is first set to half the smallest measured value of that lipid. The reference profile $r_i$ is the median of each lipid over all samples, and $f_j$ is the most typical ratio of sample $j$ to it, so a more dilute sample has a smaller $f_j$. Dividing by $f_j$ removes the dilution, and the result is log2-transformed.
+
+**Pareto scaling.**
+
+$$
+z_{ij} = \frac{y_{ij} - \bar y_i}{\sqrt{s_i}}
+$$
+
+$\bar y_i$ and $s_i$ are the mean and standard deviation of lipid $i$. Dividing by the square root of the standard deviation (not by the standard deviation itself) keeps large changes important without letting the noisiest lipids dominate. It is used for the PCA and the OPLS-DA model.
+
+**Class shares.**
+
+$$
+c_{Aj} = \frac{\sum_{i \in A} w_{ij}}{\sum_{i} w_{ij}}, \qquad w_{ij} = 2^{y_{ij}}
+$$
+
+$y_{ij}$ is the normalised log2 value, so $w_{ij}$ is back on the linear scale, where signals can be added. $c_{Aj}$ is the share of sample $j$'s lipid signal that comes from class $A$ (for example PC or LPE). It is a share of the signal measured, not a concentration.
+
+**Chain length and saturation.**
+
+$$
+\bar C_j = \sum_{i} \pi_{ij} C_i, \qquad \bar D_j = \sum_{i} \pi_{ij} D_i, \qquad \pi_{ij} = \frac{w_{ij}}{\sum_{k} w_{kj}}
+$$
+
+$C_i$ and $D_i$ are the carbons and double bonds of lipid $i$, summed over its chains as read from the shorthand, and the sums run over the lipids whose chains could be read. $\pi_{ij}$ is each lipid's share of that signal, so an abundant lipid counts for more than a trace one. The shares of saturated (0 double bonds), mono- or di-unsaturated (1 or 2) and polyunsaturated (3 or more) lipids are sums of $\pi_{ij}$ in the same way.
+
+**Paired Wilcoxon signed-rank test, with Benjamini–Hochberg.**
+
+$$
+W^{+} = \sum_{h  :  d_h > 0} R_h, \qquad d_h = u_{h,\text{tumour}} - u_{h,\text{normal}}, \qquad p^{\text{adj}}_{(k)} = \min_{l \ge k}   \min\left( 1, \frac{m   p_{(l)}}{l} \right)
+$$
+
+For each patient $h$, $d_h$ is the tumour value minus the normal value of a class share or chain measure $u$, and $R_h$ is the rank of $\lvert d_h \rvert$ among all patients. If nothing changes, $W^{+}$ should sit near half the total of the ranks; its p-value makes no assumption about the shape of the data. The reported change is the median of $d_h$. In the BH formula, $p_{(1)} \le \dots \le p_{(m)}$ are the sorted p-values of the $m$ classes (or measures, or lipids) tested.
+
+**Linear model with the paired design (`~ patient + tissue`) and the limma moderated t-statistic.**
+
+$$
+y_{ij} = \beta_{i0} + \gamma_{i,p(j)} + \beta_{i1} x_j + \varepsilon_{ij}, \qquad \varepsilon_{ij} \sim \mathcal{N}(0, \sigma_i^2)
+$$
+
+$x_j$ is 1 for a tumour and 0 for normal kidney, and $\gamma_{i,p(j)}$ is the effect of the patient $p(j)$. So $\beta_{i1}$ is the log2 fold change of tumour over normal within the same patient. (The code fits one mean per tissue plus the patient terms and takes the contrast tumour − normal, which gives the same estimate.)
+
+$$
+\tilde t_i = \frac{\hat\beta_{i1}}{\tilde s_i \sqrt{v_i}}, \qquad \tilde s_i^2 = \frac{d_0 s_0^2 + d_i s_i^2}{d_0 + d_i}
+$$
+
+$s_i^2$ is the lipid's residual variance on $d_i$ degrees of freedom, and $v_i$ the unscaled variance of the contrast. Empirical Bayes estimates one prior variance $s_0^2$ on $d_0$ degrees of freedom from all lipids, which steadies the variance of each one. $\tilde t_i$ is compared with a t distribution on $d_0 + d_i$ degrees of freedom, and the p-values are adjusted by Benjamini–Hochberg (above).
+
+**OPLS-DA, cross-validation and the permutation test.**
+
+$$
+Z = t_p   p_p^{\mathsf T} + T_o P_o^{\mathsf T} + E, \qquad y = t_p   c + f, \qquad Q^2 = 1 - \frac{\sum_j (y_j - \hat y_{(j)})^2}{\sum_j (y_j - \bar y)^2}
+$$
+
+$Z$ is the Pareto-scaled data and $y$ codes each sample's tissue as a number. The predictive component $t_p$ carries the variation in $Z$ that predicts $y$; the orthogonal components $T_o$ carry variation unrelated to the groups. In $Q^2$, $\hat y_{(j)}$ is the prediction for sample $j$ from a model built without it (7-fold cross-validation), so $Q^2$ measures prediction of unseen samples, while $R^2Y$ only measures the fit to the samples the model was built on. The labels were shuffled 200 times and the model refitted each time; the permutation p-value is based on how many shuffled models reach the real model's $Q^2$. VIP ranks each lipid's contribution to the model; values above 1 are above average.
+
+**Spearman correlation (validation).**
+
+$$
+\rho = \operatorname{corr}\left( \operatorname{rank}(x), \operatorname{rank}(y) \right)
+$$
+
+The correlation of the ranks of the fold changes in the main cohort ($x$) and the independent cohort ($y$). It measures agreement in order, without assuming a straight-line relation.
+
 ---
 
 ## Validation
